@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="how">hello world</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, temporibus? Quo similique vero maiores vitae veniam eum unde ipsum corporis.</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid illo unde rerum ea asperiores. Doloribus rem ducimus adipisci et quae.</p>
+    <div onmousedown="down(this)" onmouseup="up(this)" style="background-color: rgb(236, 150, 150); width:80px; height:100px; 
+    border: 2px solid blueviolet; ">
+    Hey click me
+    </div>
+    
+    <ul id ="test">
+        <li>hkj</li>
+        <li>tyo</li>
+        <li>ree</li>
+    <!-- </ul>
+    <div id="test">
+<input id="some" type="text">
+<button type="button" onclick="error()">Test</button>
+<p id="message"></p>        <button onclick="showdate()"> shows date </button>
+   
+</div> -->
+
+
+
+
+
+<div id="test">
+<form id="myform" action="#">
+    First Name: <input type="text" name="fname" value="test"><br>
+    Last Name: <input type="text" name="lname" value="test"><br>
+<button onclick="myFunction()">Get Value</button>
+</form>
+
+</div>
+<div>
+    <h3 id="getvalue"></h3>
+</div>
+
+
+
+
+
+
+<script >
+function up(obj)
+{
+    obj.style.backgroundColor="blue";
+    obj.innerHTML="you touched me";
+}
+function down(obj)
+{
+    obj.style.backgroundColor="red";
+    obj.innerHTML="you left me";
+}
+
+</script>
+<!-- //input is taken into  input type text and then after clicking the button
+the input text is stored into x and then it is displayed in the paragraph tag-->
+
+</body>
+</html>

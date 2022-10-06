@@ -1,0 +1,27 @@
+div{
+    height: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+.blue{
+    background-color: aqua;
+}
+/* .grey{
+    background-color: gray;
+} */
+/* .parallax-window {
+    min-height: 400px;
+    background: transparent;
+} */
+
+h1{
+text-align: center;
+padding: 80px;
+
+margin: 0px;
+}
+p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}

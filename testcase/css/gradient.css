@@ -1,0 +1,14 @@
+.big{
+    background: linear-gradient(to bottom right, rgb(185, 62, 62),rgb(187, 174, 174));
+    height: 300px;
+    margin-bottom: -21.5px;
+}
+
+.hello{
+    background: radial-gradient(white,rgb(54, 47, 47));
+height: 300px;
+}
+input:checked + label{
+    text-decoration: line-through;
+    
+}

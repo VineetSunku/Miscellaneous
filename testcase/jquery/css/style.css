@@ -1,0 +1,11 @@
+body{
+    background:rgb(95, 192, 95);
+}
+.center{
+     margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    height: 300px;
+    margin-top: 100px;
+    font-size: large;
+}

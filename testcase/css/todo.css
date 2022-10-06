@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    background:radial-gradient(white,gray);
+}
+.wrapper{
+    border: solid 5px black;
+    width: 200px;
+    height: 200px;
+    margin: 150px auto;
+    border-radius: 20px;
+    background: #ffdd6633;
+}
+li{
+    list-style-type: none;
+}
+.hello{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   border-bottom: dotted ;
+
+    border-radius: 14px 14px 0 0 ;
+    background: linear-gradient(rgb(206, 54, 49),rgb(236, 183, 183));
+    height: 35px;
+    font-size: 20px;
+padding-top: 2px;
+box-sizing: border-box;
+
+}
+.bye{
+    text-align: left;
+    padding-left: 6px;
+    padding-top: 6px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+input{
+    float: right;
+    position: relative;
+    top: 7px;
+    right: 20px;
+    
+
+}
+input[type="checkbox"]:checked +label{
+    opacity: 0.3;
+    text-decoration: line-through;
+
+}
+label{
+    margin-left: 40px;
+}
+
